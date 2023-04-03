@@ -1,0 +1,147 @@
+body{
+    background-color: grey;
+}
+.container{
+    display:grid;
+    grid-template-areas:'header header'
+    'main aside';
+    grid-gap:5%;
+    width:100em;
+    height:30em;
+}
+.header{
+    grid-area:header;
+    background-color:rgb(254, 254, 254);
+    border: 1px solid #E6DFAF;
+    padding: 0px;
+    box-shadow: 0px 2px #A3CCBE;
+    font-weight:1000;
+    width:78em;
+    height:4em;
+}
+h1{
+    font-size:2em;
+margin-left:2em;
+color:#BF9D9D;
+word-spacing: 8em;
+margin-top:-0.0000001em
+}
+.main{
+    grid-area:main;
+    background-color:white;
+    grid-template-areas:'section section ';
+    width:60em;
+    box-shadow: 0px 2px #A3CCBE;
+    margin-right:41em;
+height:90em;
+}
+.aside{
+    grid-area:aside;
+    background-color:rgb(255, 255, 255);
+    box-shadow: 0px 2px #A3CCBE;
+    width:30em;
+}
+.title{
+    margin-left:0.5em;
+    margin-top:0.5em;
+}
+.section{
+    grid-area:section;
+    border:1vh solid #E6DFAF;
+    
+    margin-left:0.2em;
+    margin-top:0.2em;
+    width:23.9em;
+    height:28em;
+    
+}
+.division1{
+    display: grid;
+    grid-template-areas:
+    'title title'
+    'imagee imagee'
+    'text buy';
+  margin: 1% 15% 1% -15%;
+ 
+}
+.title{
+    grid-area:title;
+    color:#D86C70;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 1em;
+}
+img{
+    border:1px solid #E6DFAF;
+   
+ 
+
+}
+.img{
+   text-align:center;
+    grid-area:imagee;
+    margin-left:4em;
+}
+.text{
+    grid-area:text;
+    border: 1px solid #E6DFAF;
+    width:19em;
+    height:5em;
+    margin-left:4.5em;
+    margin-right:0.2em;
+}
+.buy{
+    grid-area:buy;
+    width:1em;
+    text-align: center;
+    
+    
+}
+.buyy{
+width:3em;
+cursor:pointer;
+}
+
+.aside{
+    text-align:center;
+    width:17em;
+    margin-left:-45em;
+
+}
+
+.panier{
+    border:1em solid #BF9D9D;
+    height:81em;
+    
+}
+#rechercher{
+    width:13em;
+    background-color: #76C4AE;
+    margin-top:1em;
+height:3em;
+font-weight:1000;
+}
+
+#number{
+    width:3.19em;
+    background-color: #76C4AE;
+    font-weight:1000;
+
+}
+
+
+#coleur{
+    color : red;
+}
+
+
+
+
+
+#final{
+    position:fixed;
+    color:red;
+    font-weight:1000;
+    font-size:1em;
+    margin-top:3em;
+}
